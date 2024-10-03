@@ -15,8 +15,20 @@
 
 ## 주요 스크립트 설명
 
-- **CharacterInfo.cs(Character-Data)**: 모든 유닛의 최상위 클래스 입니다. 이는 궁수 아처 워리어로 다시 나눠지며, 그 아래 노말 희귀 영웅 전설 신화 태초로 나뉘어 상속됩니다. (Character-Heroes)
-- **SaveLoadManager.cs(Firebase)**: 세이브로드매니저는 Firebase에서 주요 기능들을 관장하는 스크립트입니다.
-- **SKill.cs(Character-Skill)**: 모든 유닛의 스킬 최상위 클래스 입니다. 노말 제외 모든 스킬이 존재하며 CharacterInfo와 상속합니다.
+- **Data폴더**: CharacterData는 스크립터블 오브젝트 스크립트, CharacterInfo는유닛들의 최상위클래스 입니다. CSV는 CharacterDataLoad로 읽어 옵니다.
 
+
+- **Firebase폴더**: Firebase관련 스크립트들이 있습니다.
+
+
+- **Heroes 폴더**: 모든 유닛 스크립트, 유닛 소환 및 강화 스크립트가 있습니다. CharacterInfo를 상속합니다.
+
+
+- **Skill 폴더**: 스킬 관련 스크립트 폴더입니다. 각 고유 스킬들이 있으며, 기본적으로 스킬들은 skill을 상속받습니다. SkillBehavior는 스킬 프리팹에 할당 되어있고 실질적인 효과를 발휘하는 역할입니다.
+	        스킬 정보는 CSV를 통해 관리하며 CSV는 SkillLoader로 읽어 옵니다.
+
+
+- **CSV 폴더**:  사용된 CSV 복사본 입니다.
+
+ 
 **코드를 설계한 이유는 기재된 기술문서에 있습니다.**
