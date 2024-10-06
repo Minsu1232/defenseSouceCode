@@ -57,7 +57,7 @@ public class SwordSkill : Skill
             SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
             if (skillBehavior != null)
             {
-                skillBehavior.Initialize(caster, finalDamage, 0, highestHealthEnemy.transform.position, highestHealthEnemy.gameObject, true,false,slowAmount,true,defenseReductionAmount);
+                skillBehavior.Initialize(caster, finalDamage, 0, highestHealthEnemy.transform.position, highestHealthEnemy.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
             }
         }
     }

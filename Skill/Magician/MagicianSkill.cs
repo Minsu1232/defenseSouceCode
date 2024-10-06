@@ -29,7 +29,7 @@ public class MagicianSkill : Skill
         if (skillBehavior != null)
         {
             Vector3 targetPosition = target.transform.position;
-            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, target, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, false, 2f);
+            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, target, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
 
             caster.totalDamageDealt += skillDamage;
         }

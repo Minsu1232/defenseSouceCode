@@ -5,7 +5,9 @@ using System.Threading;
 using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
-
+/// <summary>
+/// 스킬이 목표를 향해 이동하고, 적과 충돌 시 다양한 효과를 적용하는 로직을 처리
+/// </summary>
 public class SkillBehavior : MonoBehaviour
 {
     private CharacterInfo caster;

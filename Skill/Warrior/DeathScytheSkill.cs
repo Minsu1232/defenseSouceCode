@@ -74,7 +74,7 @@ public class DeathScytheSkill : Skill
             SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
             if (skillBehavior != null)
             {
-                skillBehavior.Initialize(caster, CalculateDamage(highestHealthEnemy.maxHealth, finalDamage), 0, highestHealthEnemy.transform.position, highestHealthEnemy.gameObject, true, false, slowAmount, true, defenseReductionAmount);
+                skillBehavior.Initialize(caster, CalculateDamage(highestHealthEnemy.maxHealth, finalDamage), 0, highestHealthEnemy.transform.position, highestHealthEnemy.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
             }
         }
     }

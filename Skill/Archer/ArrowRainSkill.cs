@@ -46,7 +46,7 @@ public class ArrowRainSkill : Skill
                 SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
                 if (skillBehavior != null)
                 {
-                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject,isSingtarget, false, 0, false, 0);
+                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject,isSingtarget,hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount,isSpecialSkill,duration,speed);
                 }
             }
         }

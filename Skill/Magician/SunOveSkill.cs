@@ -52,7 +52,7 @@ public class SunOveSkill : Skill
         if (skillBehavior != null)
         {
             Vector3 targetPosition = target.transform.position;
-            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, target, false, false, 0, true, defenseReductionAmount, isSpecialSkill,duration,speed);
+            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, target, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
 
         }
     }

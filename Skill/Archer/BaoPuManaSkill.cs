@@ -56,7 +56,7 @@ public class BaoPuManaSkill : ManaSkill
                 SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
                 if (skillBehavior != null)
                 {
-                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject, true, false, 0, false, 0, false, 15f);
+                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
                 }
             }
         }

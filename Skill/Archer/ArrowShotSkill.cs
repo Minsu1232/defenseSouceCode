@@ -42,7 +42,7 @@ public class ArrowShotSkill : Skill
                 SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
                 if (skillBehavior != null)
                 {
-                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount);
+                    skillBehavior.Initialize(caster, finalDamage, skillRange, enemy.transform.position, enemy.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
                 }
             }
         }

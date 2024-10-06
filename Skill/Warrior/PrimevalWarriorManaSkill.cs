@@ -54,7 +54,7 @@ public class PrimevalWarriorManaSkill : ManaSkill
             skillBehavior.OnSwordDestroyed += DropMeteor;
 
             // 검기 초기화
-            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, sky, false, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, true,3f ,10f);
+            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, sky, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
         }
     }
 

@@ -43,7 +43,7 @@ public class BaoPuSkill : Skill
             SkillBehavior skillBehavior = skillInstance.GetComponent<SkillBehavior>();
             if (skillBehavior != null)
             {
-                skillBehavior.Initialize(caster, finalDamage, skillRange, target.transform.position, target.gameObject, isSingtarget, false, 0, false, 0, false,12f);                
+                skillBehavior.Initialize(caster, finalDamage, skillRange, target.transform.position, target.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);                
             }
         }
     }

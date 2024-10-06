@@ -70,7 +70,7 @@ public class PrimevalWarriorSkill : Skill
         {
             // 타겟의 위치가 아닌 칼이 떨어질 위치를 지정
             Vector3 targetPosition = chosenDropPoint.position;
-            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, chosenDropPoint.gameObject, false, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, true, 15f, 20f);
+            skillBehavior.Initialize(caster, finalDamage, skillRange, targetPosition, chosenDropPoint.gameObject, isSingtarget, hasSlowEffect, slowAmount, hasDefenseReduction, defenseReductionAmount, isSpecialSkill, duration, speed);
 
             // 검이 파괴될 때 호출될 콜백 연결
             skillBehavior.OnSwordDestroyed = OnSwordDestroyed;
