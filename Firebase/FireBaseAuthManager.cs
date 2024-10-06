@@ -7,7 +7,9 @@ using UnityEngine;
 using Firebase.Extensions;
 using UnityEngine.SceneManagement;
 using Firebase.Database;
-
+/// <summary>
+/// 로그인 스크립트
+/// </summary>
 public class FireBaseAuthManager : MonoBehaviour
 {
     public TMP_InputField emailInput; // 이메일 입력 필드

@@ -1,7 +1,9 @@
 using System.Collections;
 using UnityEngine;
-
-public abstract class Item : MonoBehaviour
+/// <summary>
+/// 아이템에 직접 상속할 추상 클래스
+/// </summary>
+public abstract class Item : MonoBehaviour,IItem
 {
     public ItemData itemData; // 스크립터블 오브젝트 참조
 

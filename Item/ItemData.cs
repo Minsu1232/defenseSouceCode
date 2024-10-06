@@ -1,6 +1,10 @@
 using UnityEngine;
-
+/// <summary>
+/// 아이템 데이터 스크립터블오브젝트
+/// </summary>
 [CreateAssetMenu(fileName = "NewItem", menuName = "Items/Item")]
+
+
 public class ItemData : ScriptableObject
 {
     public string itemName; // 아이템 이름

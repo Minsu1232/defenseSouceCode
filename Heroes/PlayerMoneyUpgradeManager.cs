@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+/// <summary>
+/// 유닛 영구강화 스크립트 입니다.
+/// </summary>
 public class PlayerMoneyUpgradeManager : MonoBehaviour
 {   
     

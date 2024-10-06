@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// 디펜스씬 재화 중앙 관리 스크립트
+/// </summary>
 public class MoneyManager : MonoBehaviour
 {
     public static MoneyManager Instance { get; private set; } // 싱글턴 인스턴스

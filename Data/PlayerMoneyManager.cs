@@ -7,7 +7,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Firebase.Extensions;
-
+/// <summary>
+/// 플레이어의 재화 중앙 관리 스크립트
+/// </summary>
 public class PlayerMoneyManager : MonoBehaviour
 {
     public static PlayerMoneyManager Instance { get; private set; } // 싱글턴 인스턴스

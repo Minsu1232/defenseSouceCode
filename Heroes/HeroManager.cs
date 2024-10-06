@@ -7,7 +7,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using static CharacterData;
-
+/// <summary>
+/// 디펜스존에서의 히어로 소환 및 조합을 관할합니다.
+/// </summary>
 public class HeroManager : MonoBehaviour
 {
     public static HeroManager Instance { get; private set; } // 싱글턴 인스턴스

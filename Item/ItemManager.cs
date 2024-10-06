@@ -4,7 +4,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-
+/// <summary>
+/// 디펜스존 아이템 적용 스크립트
+/// </summary>
 public class ItemManager : MonoBehaviour
 {
     public static ItemManager Instance { get; private set; }

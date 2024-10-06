@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// 유닛들의 최상위 클래스 (현재 클래스는 너무 복잡하게 되었다 생각합니다. 간소화 필요..)
+/// </summary>
 public abstract class CharacterInfo : MonoBehaviour
 {
 

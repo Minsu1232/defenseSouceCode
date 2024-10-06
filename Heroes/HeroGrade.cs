@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/// <summary>
+/// 영웅등급 및 소환 확률 정하는 스크립터블오브젝트
+/// </summary>
 [CreateAssetMenu(fileName = "HeroGrade", menuName = "ScriptableObjects/HeroGrade", order = 1)]
 public class HeroGrade : ScriptableObject
 {
